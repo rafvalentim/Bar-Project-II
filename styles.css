@@ -30,6 +30,12 @@ li {
     border-radius: 10px;
 }
 
+.menu-list {
+    background-color: #003145;
+    padding: 0 1rem;
+    border-radius: 10px;
+}
+
 .menu-list li {
     font-family: 'Pragati Narrow', sans-serif;
     font-size: 2rem;
@@ -49,6 +55,7 @@ li {
     display: flex;
     align-content: center;
     flex-wrap: wrap;
+    border-bottom: black solid 8px;
 }
 
 .pres-text {
@@ -65,5 +72,16 @@ li {
 
 .pres-image {
     width: 50%;
-    background-image: url();
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: white;
+    font-size: 2rem;
+    background-image: url(https://github.com/rafvalentim/Bar-Project-II/blob/master/images/cardmapr-nl-8h395JCix8g-unsplash.jpg?raw=true);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.pres-image h3 {
+    font-weight:  normal;
+    padding-top: 3rem;
 }
