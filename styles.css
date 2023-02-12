@@ -89,6 +89,17 @@ li {
 
 /* Locations Section */
 
+.locations-title {
+    display: flex;
+    justify-content: center;
+    background-color: #00a3de25;
+    color: #003145;
+    align-items: center;
+    font-family: 'Pragati Narrow', sans-serif;
+    font-size: 2.1rem;
+    text-decoration: underline;
+}
+
 .locations-container {
     display: flex;
     align-content: center;
@@ -115,6 +126,7 @@ li {
     font-family: 'Pragati Narrow', sans-serif;
     font-size: 1.3rem;
     color: #003145;
+    text-align: justify;
 }
 
 .locations-text h3 {
