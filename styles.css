@@ -17,8 +17,8 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: #003145 dashed 4px;
     padding: 1% 2rem;
+    margin-bottom: 1.5%;
 }
 
 .logo {
@@ -56,6 +56,7 @@ li {
     align-content: center;
     flex-wrap: wrap;
     border-bottom: white solid 8px;
+    padding-bottom: 2%;
 }
 
 .pres-text {
@@ -85,3 +86,39 @@ li {
     font-weight:  normal;
     padding-top: 3rem;
 }
+
+/* Locations Section */
+
+.locations-container {
+    display: flex;
+    align-content: center;
+    gap: 2%;
+    background-color: #00a3de25;
+    padding: 1% 0;
+}
+
+.map {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.map img {
+    width: 65%;
+    height: auto;
+    border: #003145 dashed 2px;
+}
+
+.locations-text {
+    width: 50%;
+    height: auto;
+    font-family: 'Pragati Narrow', sans-serif;
+    font-size: 1.3rem;
+    color: #003145;
+}
+
+.locations-text h3 {
+    font-size: 2rem;
+    padding-top: 0.5rem;
+}
+
