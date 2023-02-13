@@ -49,6 +49,34 @@ li {
     padding: 0 0.870rem;
 }
 
+@media screen and (max-width: 900px) {
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        font-size: 2.3rem;
+        margin: 1rem 0;
+    }
+
+    .menu-list {
+        margin-bottom: 0.8rem;
+    }
+
+    .menu-list li {
+        font-size: 1em;
+        display: flex;
+        justify-content: center;
+        padding: 0 2rem;
+    }
+
+    .menu-list li+li:before {
+        display: none;
+    }
+}
+
 /* Presentation Section */
 
 .presentation-container {
@@ -86,6 +114,27 @@ li {
     font-weight:  normal;
     padding-top: 3rem;
     opacity: 0.8;
+}
+
+@media screen and (max-width: 900px) {
+    .presentation-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pres-text {
+        width: 100%;
+        font-size: 1em;
+    }
+
+    .pres-image {
+        width: 100%;
+        height: 350px;
+    }
+
+    .pres-image h3 {
+        font-size: 1em;
+    }
 }
 
 /* Locations Section */
@@ -138,6 +187,27 @@ li {
     padding-right: 2%;
 }
 
+@media screen and (max-width: 900px) {
+    .locations-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .map {
+        width: 100%;
+    }
+
+    .map img {
+        width: 100%;
+    }
+
+    .locations-text {
+        width: 100%;
+        padding-left: 1%;
+        text-align: justify;
+    }
+}
+
 /* First Row Section */
 
 .first-title {
@@ -164,6 +234,18 @@ li {
 .row-container img {
     width: 100%;
     height: auto;
+}
+
+@media screen and (max-width: 900px) {
+    .first-title {
+        margin-bottom: 5%;
+    }
+    
+    .row-container {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
 }
 
 /* Join us Section */
@@ -222,6 +304,26 @@ li {
     margin-top: 20px;
     margin-bottom: 10px;
   }
+
+  @media screen and (max-width: 900px) {
+    .form-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .form-title {
+        font-size: 3em;
+    }
+
+    form {
+        margin: 0 2%;
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+    }
+  }
   
 /* About us - Social Media */
 
@@ -248,4 +350,18 @@ li {
 
 .social-title h4 {
     font-size: 0.9em;
+}
+
+@media screen and (max-width: 900px) {
+    .social-title {
+        background-color: #00a3de25;
+    }
+    
+    .social-container {
+        background-color: #00a3de25;
+    }
+    
+    .social-container img {
+        width: 10%;
+    }
 }
