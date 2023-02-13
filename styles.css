@@ -56,7 +56,7 @@ li {
     align-content: center;
     flex-wrap: wrap;
     border-bottom: white solid 8px;
-    padding-bottom: 2%;
+    padding-bottom: 2rem;
 }
 
 .pres-text {
@@ -85,6 +85,7 @@ li {
 .pres-image h3 {
     font-weight:  normal;
     padding-top: 3rem;
+    opacity: 0.8;
 }
 
 /* Locations Section */
@@ -106,6 +107,7 @@ li {
     gap: 2%;
     background-color: #00a3de25;
     padding: 1% 0;
+    margin-bottom: 3%;
 }
 
 .map {
@@ -127,10 +129,123 @@ li {
     font-size: 1.3rem;
     color: #003145;
     text-align: justify;
+    padding-right: 2%;
 }
 
 .locations-text h3 {
     font-size: 2rem;
     padding-top: 0.5rem;
+    padding-right: 2%;
 }
 
+/* First Row Section */
+
+.first-title {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    font-family: 'Pragati Narrow', sans-serif;
+    font-size: 2rem;
+    color: #003145;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.row-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.row-container img {
+    width: 100%;
+    height: auto;
+}
+
+/* Join us Section */
+
+.form-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+    background-color: #00a3de25;
+  }
+  
+  .form-title {
+    text-align: center;
+    grid-column: 1/2;
+    font-family: 'Pragati Narrow', sans-serif;
+    font-size: 5rem;
+    color: #00A1DE;
+    background-color: #003145;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form {
+    grid-column: 2/3;
+  }
+  
+  .form-group {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 1px;
+    align-items: center;
+    font-family: 'Pragati Narrow', sans-serif;
+    font-size: 1.3rem;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #003145;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+/* About us - Social Media */
+
+.social-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 1rem;
+}
+  
+.social-container img {
+    width: 3%;
+    height: auto;
+}
+
+.social-title {
+    font-family: 'Pragati Narrow', sans-serif;
+    color: #003145;
+    text-align: center;
+    height: auto;
+    font-size: 2rem;
+}
+
+.social-title h4 {
+    font-size: 1rem;
+}
