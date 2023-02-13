@@ -219,6 +219,7 @@ li {
     color: #003145;
     text-align: center;
     line-height: 1.5em;
+    padding-bottom: 40px;
 }
 
 .row-container {
@@ -236,11 +237,7 @@ li {
     height: auto;
 }
 
-@media screen and (max-width: 900px) {
-    .first-title {
-        margin-bottom: 5%;
-    }
-    
+@media screen and (max-width: 900px) {    
     .row-container {
         display: flex;
         flex-direction: column;
